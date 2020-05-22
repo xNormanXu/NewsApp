@@ -1,4 +1,4 @@
-# News-App
+# NewsApp
 
 News app is a good ios app which shows different kinds of news around the world every day. Happy reading!
 
