@@ -28,7 +28,7 @@ class HeadlinesViewController: UIViewController {
             switch result {
             case .success(let newsDetail):
                 for article in newsDetail.articles {
-                    if URL(string: article.urlToImage!) != nil {
+                    if article.urlToImage != nil {
                         self.topHeadlinesArticles.append(article)
                     }
                 }
